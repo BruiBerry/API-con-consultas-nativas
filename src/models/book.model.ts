@@ -43,6 +43,9 @@ const addBook = async (
     return rows[0] as IBook;
   };
 
+const deleteBook = async () => {
+  
+}
 export const bookModel = {
   addBook,
   findOneByTitle,
